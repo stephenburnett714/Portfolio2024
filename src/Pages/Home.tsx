@@ -1,8 +1,9 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import sbcomp from "../assets/stephen-comp.png";
 import Research from "../assets/R&DLarge.png";
 import Development from "../assets/DevelopmentLarge.png";
 import { NavLink } from "react-router-dom";
+import Navbar from "../Components/Navbar";
 
 const Home = () => {
   useEffect(() => {
@@ -11,6 +12,7 @@ const Home = () => {
 
   return (
     <div>
+      <Navbar />
       <div id="home">
         {/* ________________ */}
         {/* Your “go-to” guy */}
@@ -42,7 +44,7 @@ const Home = () => {
                 front-end engineering. I am currently freelancing while looking
                 for work.
               </div>
-              <NavLink exact activeClass="active" to="/work">
+              <NavLink to="/work">
                 <div className="text-blue-500">View Work</div>
               </NavLink>
             </div>
@@ -71,7 +73,7 @@ const Home = () => {
                   enthusiasm for coding and ultimately led me to pursue a career
                   change.
                 </div>
-                <NavLink exact activeClass="active" to="/about">
+                <NavLink to="/about">
                   <div className="text-blue-500">More About Stephen</div>
                 </NavLink>
               </div>
