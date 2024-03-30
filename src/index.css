@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/* Colors for icons */
+
+
+.icon-envelope:hover {
+    color: green;
+  }
+
+.icon-linkedin:hover {
+    color: #0077B5;
+  }
+
+
+.icon-github:hover {
+    color: gray;
+  }
