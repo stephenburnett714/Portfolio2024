@@ -9,7 +9,7 @@ export default function About() {
 
   return (
     <div>
-        <Navbar />
+      <Navbar />
       {/* _______________ */}
       {/* Stephen Burnett */}
       {/* _______________ */}
@@ -17,12 +17,10 @@ export default function About() {
         <div className="flex content-center flex-col justify-center px-16 lg:px-24 py-0">
           <div className="text-4xl pb-4">About Me</div>
           <div className="pb-5 lg:pb-0">
-            I am an inquisitive and diligent software engineer who has over six
-            years of consulting experience. I have a passion for problem solving
-            and learning. Consulting has taught me to live in a growth mindset
-            where I strive to be better everyday. Working as a business analyst
-            at Navitas Billing ignited my enthusiasm for coding and ultimately
-            led me to pursue a career change.
+            At Alpha Omega Integration, I worked as a full-stack developer, where I had the opportunity to immerse myself in a tech stack consisting of React on the frontend and Rails on the backend. This experience significantly fueled my passion for coding and reinforced my commitment to delivering high-quality solutions.
+            <br />
+            <br />
+            As a diligent software engineer with over six years of consulting experience, I have cultivated a growth mindset, constantly seeking opportunities for learning and improvement. My consulting background has instilled in me invaluable problem-solving skills and a dedication to excellence.
             <br />
             <br />
             Graduate of General Assembly a Software Engineering Immerse program
@@ -38,7 +36,7 @@ export default function About() {
           </div>
         </div>
       </div>
-      
+
       <div className="flex justify-center">
         <button className="mb-16 call-color p-2 rounded text-white">Download Resume</button>
       </div>

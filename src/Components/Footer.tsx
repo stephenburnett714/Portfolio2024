@@ -18,7 +18,7 @@ const Footer = () => {
           <div className="flex flex-col text-center">
             <div className="flex justify-around content-center py-4 md:px-16">
             <a href="https://www.linkedin.com/in/stephen-burnett/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} style={{ color: 'white' }} size="3x" className='transform hover:scale-105 transition-all duration-300'/></a>
-            <a href="mailto: Stephenburnett714@gmail.com.com"><FontAwesomeIcon icon={faEnvelope} style={{ color: 'white' }} size="3x" className='transform hover:scale-105 transition-all duration-300'/></a>
+            <a href="mailto: Sburnettatwork@gmail.com"><FontAwesomeIcon icon={faEnvelope} style={{ color: 'white' }} size="3x" className='transform hover:scale-105 transition-all duration-300'/></a>
             <a href="https://github.com/stephenburnett714" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} style={{ color: 'white' }} size="3x" className='transform hover:scale-105 transition-all duration-300'/></a>
             </div>
             <div>Software Engineer & Independent Consultant</div>

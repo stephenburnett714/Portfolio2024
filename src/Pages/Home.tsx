@@ -22,8 +22,7 @@ const Home = () => {
             <div className="text-4xl pb-4 lg:text-6xl">Software Engineer</div>
             <div className="text-xl lg:text-2xl pb-4">
               <div>
-                My name is Stephen and I am a New York based freelancer. I enjoy
-                the process of bringing ideas to reality.
+              Hi! I'm Stephen, a driven software engineer hailing from the vibrant landscape of New York. Infatuated with the alchemy of transforming ideas into tangible realities, I find profound joy in the creative journey of coding. My tenure at Alpha Omega Integration has only deepened this passion, enriching my experience and shaping my craft. Together, let's weave innovation into existence and craft tomorrow's digital landscapes.
               </div>
             </div>
           </div>
@@ -65,13 +64,7 @@ const Home = () => {
               <div>
                 <div className="text-4xl pb-4">The Coder</div>
                 <div className="text-xl pb-4">
-                  I am an inquisitive and diligent software engineer who has
-                  over six years of consulting experience. I have a passion for
-                  problem solving and learning. Consulting has taught me to live
-                  in a growth mindset where I strive to be better everyday.
-                  Working as a business analyst at Navitas Billing ignited my
-                  enthusiasm for coding and ultimately led me to pursue a career
-                  change.
+                My journey began as a full-stack developer at Alpha Omega Integration, where I immersed myself in React and Rails. This experience ignited my passion for coding, building upon my six years of consulting experience. Now, armed with a growth mindset and a relentless drive for excellence, I am committed to delivering high-quality solutions and making meaningful contributions to impactful projects in the software engineering realm.
                 </div>
                 <NavLink to="/about">
                   <div className="text-blue-500">More About Stephen</div>

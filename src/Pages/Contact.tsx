@@ -21,19 +21,19 @@ export default function Contact() {
           <div className="flex flex-col">
             <div className="flex flex-row">
               <a
-                href="mailto: Stephenburnett714@gmail.com.com"
+                href="mailto: Sburnettatwork@gmail.com"
                 className="flex items-center"
                 style={{ textDecoration: "none", color: "light-blue" }}
               >
                 <span className="pr-4 self-center">
                   <FontAwesomeIcon
                     icon={faEnvelope}
-                    style={{ color: "black" }}
+                    className="icon-envelope"
                     size="2x"
                   />
                 </span>
                 <span className="text-black lg:text-lg">
-                  Email: Stephenburnett714@gmail.com
+                  Email: Sburnettatwork@gmail.com
                 </span>
               </a>
             </div>
@@ -49,7 +49,7 @@ export default function Contact() {
                 <span className="pr-4 self-center">
                   <FontAwesomeIcon
                     icon={faLinkedin}
-                    style={{ color: "black" }}
+                    className="icon-linkedin"
                     size="2x"
                   />
                 </span>
@@ -70,7 +70,7 @@ export default function Contact() {
                 <span className="pr-4 self-center">
                   <FontAwesomeIcon
                     icon={faGithub}
-                    style={{ color: "black" }}
+                    className="icon-github"
                     size="2x"
                   />
                 </span>
